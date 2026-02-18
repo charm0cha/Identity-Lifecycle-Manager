@@ -39,6 +39,7 @@ To mirror real enterprise safety controls, the script automatically skips:
 ## Environment Configuration
 Create a `.env` file in the root directory. **Do not commit this file to GitHub.**
 
+
 ```bash
 AUTH0_DOMAIN=your-domain.auth0.com
 CLIENT_ID=your-client-id
@@ -48,6 +49,9 @@ MAXIMUM_DAYS=30
 POLICY_START=2024-01-01T00:00:00
 DRY_RUN=true
 
-👤 Author
+```
+
+
+## Author
 Charmaine Olupitan
-Technical Engineer and Developer .
+* Technical Engineer and Developer .
