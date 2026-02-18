@@ -451,26 +451,3 @@ if __name__ == "__main__":
 
 
 
-# TO DO
-# hard policy start date for script, should query users created before
-
-
-
-# DONE TASKS
-# go through .get / os for secrets + then rotate - done 
-# push to github - done 
-# loop though pages until no result - done
-# logging & database stuff - done
-# app_metadata.disable_reason before blocking for auditability - done
-# option to diable if created_at older than N days -done
-# guardrails - dry run=true / print accounts for disable -done
-# protect some domains (app_metadata.role in "admin", "support") - done
-# test with guest account - done 
-# add exception of if second account link - do not delete  - done
-# test with guest account - done
-# add exception of if second account link - do not delete - don e
-# Finalise on logging and deleeing and final touches - don e
-
-
-
-
