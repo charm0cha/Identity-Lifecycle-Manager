@@ -1,7 +1,7 @@
-# Daily Disable Accounts – Auth0 Automation Script
+# Daily Disable Accounts - Auth0 Automation Script
 
 ## Overview
-This project is a production-style Python automation that identifies inactive user accounts in Auth0 and safely disables them based on a defined inactivity policy. It is designed to reflect real operational support engineering work, including:
+This project is a production aimed Python automation that identifies inactive user accounts in Auth0 and safely disables them based on a defined inactivity policy. It is designed to provide real operational support engineering work, including:
 
 * **Secure Authentication:** Integration with the Auth0 Management API.
 * **Policy-Driven Management:** Account lifecycle automation.
@@ -12,7 +12,7 @@ This project is a production-style Python automation that identifies inactive us
 
 ## Key Features
 
-### Policy-Based Inactivity Detection
+### Policy Based Inactivity Detection
 * Scans users created after a configurable policy start date.
 * Calculates account age in days and flags those exceeding the threshold.
 
@@ -24,7 +24,7 @@ This project is a production-style Python automation that identifies inactive us
 To mirror real enterprise safety controls, the script automatically skips:
 - [x] Already blocked accounts
 - [x] Accounts created before the policy start date
-- [x] Social or SSO connections (Google, Okta, etc.)
+- [x] Social or SSO connections/ Protected Connections (Google, Okta, etc.)
 
 ---
 
