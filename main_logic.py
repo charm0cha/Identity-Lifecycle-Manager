@@ -100,6 +100,7 @@ def get_static_users():
         )
     
 
+
     per_page = 50 
     page = 0 
     total_fetched = 0
@@ -398,7 +399,7 @@ def get_expired_accounts():
 
     # Summary Logging: 
     logger.info("=" * 70)
-    logger.info("___ EXECUTION SUMMARY ___ ")
+    logger.info("___ REPORT SUMMARY ___ ")
     logger.info("=" * 70)
     logger.info(f"Total users scanned: {total_users}")
     logger.info(f"   ─ Created before policy start: {before_policy}")
